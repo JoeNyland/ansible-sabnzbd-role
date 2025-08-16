@@ -19,7 +19,6 @@
         groups: sabnzbd
         append: true
       with_items: "{{ sabnzbd_group_users }}"
-      notify: Restart SABnzbd
     - name: Install
       apt:
         name: sabnzbdplus
