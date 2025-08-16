@@ -1,0 +1,9 @@
+---
+# Should the SABnzbd service start at boot?
+sabnzbd_service_enabled: true
+# What state should the SABnzbd service be in? e.g. started/stopped
+sabnzbd_service_state: started
+# List of users that should be added to the SABnzbd group.
+sabnzbd_group_users: []
+# List of groups that the SABnzbd user should be a member of.
+sabnzbd_user_groups: []
